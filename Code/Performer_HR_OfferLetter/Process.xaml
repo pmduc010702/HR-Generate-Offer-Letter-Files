@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>682.666666666667,2648</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>682.666666666667,3221.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="62">
@@ -77,7 +77,7 @@
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="692.666666666667,2583.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="692.666666666667,3156.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_FirstName" />
       <Variable x:TypeArguments="x:String" Name="str_Address" />
@@ -94,7 +94,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - Geeting Data" sap:VirtualizedContainerService.HintSize="630.666666666667,195.333333333333" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - Geeting Data" sap:VirtualizedContainerService.HintSize="630.666666666667,768.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -175,7 +175,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454.666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -354,7 +354,7 @@
               <Throw DisplayName="Throw BE " Exception="[new BusinessRuleException(&quot;Email Id is Blank&quot;)]" sap:VirtualizedContainerService.HintSize="200,25.3333333333333" sap2010:WorkflowViewState.IdRef="Throw_1" />
             </If.Then>
           </If>
-          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[in_Config(&quot;EmailBody&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="pmduc.20it12@vku.udn.vn" EnableSSL="True" From="pmduc.20it12@vku.udn.vn" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Global HR Manager" Password="pmd01072002" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[in_Config(&quot;EmailSubject&quot;).ToString]" To="[str_Email]">
+          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[in_Config(&quot;EmailBody&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="pmduc.20it12@vku.udn.vn" EnableSSL="True" From="pmduc.20it12@vku.udn.vn" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Global HR Manager" Password="your_password" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[in_Config(&quot;EmailSubject&quot;).ToString]" To="[str_Email]">
             <ui:SendMail.Files>
               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                 <InArgument x:TypeArguments="x:String">[str_Pdf_Path]</InArgument>

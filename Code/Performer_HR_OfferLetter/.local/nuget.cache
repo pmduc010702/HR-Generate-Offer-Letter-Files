@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DBxQEXHp0F4s8XVkuo2Iy6NLViT6JgiM1tH3vJJq7/9Nf/SvYH7uYZ87vlb68wFOXiQBZfTQoa5FnwYFE+nO8Q==",
+  "dgSpecHash": "g1H8AJ5ZRsd36g6sw50WmBZgxD/BWBks6I/pfwAW9fJFJEQaERfqTnZ9h7jJLTEGnKJ55rXuqyR+yQ4Lm7LV4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Phan Minh Duc\\OneDrive\\Documents\\UiPath\\HR_Generate_Offer_Letter_Files\\Code\\Performer_HR_OfferLetter\\.local\\",
+  "projectFilePath": "C:\\Users\\Phan Minh Duc\\OneDrive\\Documents\\UiPath\\HR_Generate_Offer_Letter_Files - Copy\\Code\\Performer_HR_OfferLetter\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Phan Minh Duc\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Phan Minh Duc\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
